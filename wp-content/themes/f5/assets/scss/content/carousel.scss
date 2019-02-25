@@ -1,0 +1,31 @@
+.owl-carousel{
+	.owl-stage-outer{
+		.owl-stage{
+		}
+	}
+	.owl-nav{
+		font-size: 35px;
+		color: #0190DB;
+		position: absolute;
+		top: 45%;
+		transform: translateY(-50%);
+		width: 100%;
+		button{
+			outline: none;
+			position: absolute;
+			&.disabled{
+				color: #606060;
+			}
+			i {
+				font-size: 35px;
+			}
+		}
+		.owl-prev{
+			left: -30px;
+
+		}
+		.owl-next{
+			right: -30px;
+		}
+	}
+}

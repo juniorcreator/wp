@@ -1,0 +1,42 @@
+.page{
+	&_bunner {
+		padding: 70px 0 174px 0;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		&_wrap{
+			&_logo{
+				text-align: center;
+				margin-bottom: 66px;
+			}
+			&_link{
+				img{
+					max-width: 448px;
+					max-height: 87px;
+					width: 100%;
+					object-fit: cover;
+				}
+			}
+			&_title{
+				font-family: "QuattrocentoSans-Bold";
+				color: #fff;
+				font-size: 45px;
+				text-transform: uppercase;
+				text-align: center;
+				margin-bottom: 42px;
+				max-width: 80%;
+				width: 100%;
+				margin: 0 auto 42px;
+			}
+			&_desc{
+				max-width: 678px;
+				width: 100%;
+				margin: 0 auto;
+				font-family: "QuattrocentoSans-Regular";
+				color: #fff;
+				font-size: 20px;
+				line-height: 31px;
+			}
+		}
+	}
+}

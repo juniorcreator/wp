@@ -1,0 +1,44 @@
+.btn_l_m{
+	display: inline-block;
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 18px;
+	font-family: "QuattrocentoSans-Regular";
+	color: #0092de;
+	padding: 8px 15px;
+	border: 1px solid #0092DE;
+	transition: .4s;
+	backface-visibility: hidden;
+	&:hover{
+		border-color: #002235;
+		background-color: #005888;
+		color: #fff;
+	}
+}
+.btn_submit{
+	display: inline-block;
+	text-align: center;
+	background-color: #0092DE;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: "QuattrocentoSans-Regular";
+	color: #fff !important;
+	padding: 14px 21px;
+	border: none;
+	outline: none;
+	transition: .4s;
+	backface-visibility: hidden;
+	cursor: pointer;
+	&:hover{
+		background-color: #003856;
+	}
+	&.footerbtn{
+		text-decoration: none;
+		background-color: #0092DE;
+		padding: 14px 30px;
+		&:hover{
+			background-color: #00304A;
+		}
+	}
+}
